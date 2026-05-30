@@ -6,7 +6,8 @@ All replaceable images live here.
 
 | File | What it does | Recommended size |
 |------|--------------|-----------------|
-| `portrait.jpg` | Hero photo at the top of the page | 1000×1500 px (portrait), shot on black bg |
+| `portrait.webp` | Hero photo — **transparent cutout** (primary) | 1200px wide, PNG-with-transparency source |
+| `portrait-fallback.png` | Hero photo fallback (transparent) | same source as the .webp |
 | `posters/half-way.jpg` | Half Way film poster | 600×900 px (2:3 movie-poster aspect) |
 | `posters/macula.jpg` | Macula film poster | 600×900 px |
 | `posters/one-night.jpg` | One Night film poster | 600×900 px |

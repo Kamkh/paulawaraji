@@ -21,7 +21,8 @@ paulnew/
 │
 └── assets/
     ├── README.md           ← image instructions
-    ├── portrait.jpg        ← hero photo
+    ├── portrait.webp       ← hero photo (transparent cutout)
+    │   └── portrait-fallback.png  ← transparent PNG fallback
     └── posters/            ← short film poster artwork
         ├── half-way.jpg
         ├── macula.jpg
@@ -34,7 +35,7 @@ paulnew/
 
 | Want to change… | Edit this file |
 |---|---|
-| **The hero photo** | Drop a new image at `assets/portrait.jpg` |
+| **The hero photo** | Replace `assets/portrait.webp` + `assets/portrait-fallback.png` (use a transparent cutout) |
 | **A short film poster** | Drop image at `assets/posters/<name>.jpg` |
 | **Your projects** (add, remove, reorder) | `js/data.js` |
 | **Wording** (hero copy, about, awards, contact) | `index.html` |

@@ -1,5 +1,5 @@
 /* ============================================================
-   Paul Awaraji — site behavior
+   Paul Awaraji - site behavior
 
    Handles:
      - rendering work tiles from window.SITE_DATA
